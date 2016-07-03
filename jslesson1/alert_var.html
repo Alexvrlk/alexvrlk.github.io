@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>// если будет <script src=" ...ссылка">, то alert()
+            // не будет выполнятся
+        "use strict"; // режим современного стандарта - не прощает ошибок
+        var usrName = prompt('Как тебя зовут', 'Введите имя');
+        alert("I love Javascript! "+usrName);
+        // есть еще confirm
+        alert("two!"); // синхронное программирование
+        alert("three!"); // выполнение скриптов друг за другом по очереди
+        // чтобы скрипты выполнялись не следуя друг за другом (асинхронно)
+        // есть аттрибуты Defer/Async <script src=" ...ссылка" defer>
+        // здесь расписать
+        // библиотека es5-shim для поддержки современного JS в старых
+        // браузерах, например IE8-9
+        var message;
+        message='Hello!!!'; // рекомендуется в string ставить ''
+        alert(message);
+        var user = 'Sergey', age = 30, message = 'Hi, GOIT'; // объявления
+        // имена переменных - буквы, цифры, $, _  var _=2;
+        // с цифры начинать имя нельзя!
+        // нужно ставить var, без var заполняем глобальный контекст
+        // например объект window????
+        // "use strict"; a = 5; - выдаст ошибку
+        // в JS нет констант, чтобы объявить константу переменную
+        // нужно наименовать в UPPERCASE(большими буквами), например
+        var COLOR_RED = '#F00';
+        var color = COLOR_RED;
+        // name in style 
+        var userAge = 12;
+        var name_man = 'Anton';
+        // имена переменных:
+        // без транслита
+        // переменые i, j, k ... только локальные
+        // camelCase or dashed_notation
+        // название определяет что в переменной
+        //
+        /* Типы данных
+           NUMBER (1, 1.345, +Infinity, -Infinity) бесконечность
+           STRING ('Hello', "World")
+           BOOLEAN (true, false)
+           UNDEFINED - переменная неопределена
+           NULL - нет значения
+           Object {name:'Sergey'}
+        */
+        // TYPEOFF
+        alert(typeof name_man)
+    </script>
+    <p>Hello!+</p>
+</body>
+</html>
