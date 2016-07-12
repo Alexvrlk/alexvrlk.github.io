@@ -20,3 +20,21 @@ console.log(fruits);
 console.log(fruits.shift());
 fruits.unshift('apricot', 'peach');
 console.log(fruits);
+
+function arRandomEl(arr) {
+    'use strict';
+    var rand = Math.floor(Math.random() * (arr.length + 1));
+    return arr[rand];
+}
+var anyarr = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 15];
+console.log(arRandomEl(anyarr));
+
+function fillterRange(arr, startR, endR) {
+    'use strict';
+    var tmpArr = [];
+    for (var i = startR, j = 0; i <= endR ; i++, j++) {
+         tmpArr[j] = arr[i];
+    }
+    return tmpArr;
+}
+console.log(fillterRange([9, 8, 7, 6, 5, 4, 3, 2, 1], 1, 7));
