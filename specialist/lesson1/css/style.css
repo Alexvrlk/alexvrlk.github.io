@@ -1,9 +1,23 @@
-/*body {
-    background: red;
-}*/
-span {
-    /*color: lightseagreen;*/
-    font-size: 24px;
+body {
+   /* background: red;*/
+    background-image: url(06_1920x1080.jpg);
+    /*background-image: url(image.jpg);*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.container{
+    width: 960px;
+    height: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .budni {
     color: lime;
@@ -17,9 +31,37 @@ span {
     border-width: 2px;
     border-style: solid;
 }
+/*псевдоклассы*/
 #prazdnik:hover {
     color: red;
 }
 #prazdnik:active {
     color: blue;
+}
+.myclass:after{
+    content: "Псевдоэлемент after!";
+    background: yellow;
+}
+.myblock:before{
+    content: "Псевдоэлемент before!";
+    background: yellow;
+}
+/* сайт - css font stack*/
+.text1{
+    font-size: 32px;
+}
+.text2{
+    font-weight: bold;
+}
+.text3{
+    font-style: italic;
+}
+.text4{
+    font-family: Tahoma, Arial, sans-serif;
+}
+.text5{
+    font-family: "Times New Roman", serif;
+}
+.text6{
+   font-variant: small-caps;
 }
