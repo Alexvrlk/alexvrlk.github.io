@@ -1,0 +1,25 @@
+/*body {
+    background: red;
+}*/
+span {
+    /*color: lightseagreen;*/
+    font-size: 24px;
+}
+.budni {
+    color: lime;
+}
+.vihodnoi {
+    color: orange;
+    font-size: 32px;
+}
+#prazdnik {
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+#prazdnik:hover {
+    color: red;
+}
+#prazdnik:active {
+    color: blue;
+}
