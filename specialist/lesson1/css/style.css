@@ -12,12 +12,35 @@ body {
 .container{
     width: 960px;
     height: 500px;
-    background: white;
+    background: rgba(154,240,96,0.5);
+    
+    /* Рамка */
+    border-color: rgb(255,237,72);
+    border-style: solid;
+    border-width: 3px;
+    
+    /* Внутренний отступ */
     padding: 20px;
+    
+    /* Скругленные углы */
     border-radius: 16px;
+    
+    /* Отступ сверху */
     margin-top: 50px;
+    
+    /* Отступ слева */
     margin-left: auto;
+    
+    /* Отступ справо */
     margin-right: auto;
+    
+    transition: 1s background;
+}
+.container:hover {
+    background: rgba(200,232,196,0.8);
+}
+.container:active {
+    background: rgba(255,0,0,1);
 }
 .budni {
     color: lime;
