@@ -1,0 +1,5 @@
+http://frontender.info/a-baseline-for-front-end-developers/
+
+http://metanit.com/web/angular/
+
+http://front-end.su/2016/06/13/creating-your-first-desktop-app-with-electron/
